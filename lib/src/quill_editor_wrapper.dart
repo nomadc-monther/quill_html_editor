@@ -583,6 +583,7 @@ class QuillHtmlEditorState extends State<QuillHtmlEditor> {
         margin:0px !important;
         background-color:${widget.backgroundColor.toRGBA()};
         color: ${widget.backgroundColor.toRGBA()};
+        caret-color: #005dff; 
         }
         .ql-font-roboto {
            font-family: '$_fontFamily', sans-serif;
